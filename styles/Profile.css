@@ -1,0 +1,48 @@
+.profile-data{
+    display: flex;
+    margin-top: 30px;
+}
+.img-user img{
+    border-radius: 100px;
+}
+.data-user{
+    padding: 15px 45px;
+    width: 100%;
+}
+.data-user h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.data-user h5{
+    color: gray;
+    font-family: serif;
+}
+.amounts{
+    list-style: none;
+    display: flex;
+    margin-left: 30%;
+}
+.amounts li{
+    margin: 10px;
+    font-size: 18px;
+}
+.amounts li a{
+    color: black;
+}
+.amounts li strong{
+    font-size: 22px;
+}
+.setting-user {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 9px;
+    font-size: 20px;
+}
+.setting-user button{
+    border: solid 1px rgb(177, 174, 174);
+    box-shadow: 2px 3px 3px rgba(192, 192, 192, 0.5);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.setting-user button a{
+    color: black;
+}

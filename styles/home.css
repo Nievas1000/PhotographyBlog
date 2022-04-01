@@ -1,0 +1,48 @@
+.container-home{
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+}
+.center{
+    column-count: 4;
+    width: 1600px;
+}
+article{
+    width: 370px;
+    display: inline-block;
+    transition: box-shadow 0.2s ease;
+    margin: 40px 10px 0 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+article > img{
+    width: inherit;
+    border-radius: 5px 5px 0 0;
+}
+
+article > p{
+    margin: 10px 15px;
+}
+
+
+.img-profile{
+    width: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.btn-save{
+    display: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+}
+.btn-save:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+article:hover .btn-save{
+    display: block;
+}
